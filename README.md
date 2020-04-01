@@ -40,13 +40,10 @@ E se tudo ocorrer bem, ao copiar e colar o link no navegador aparecerá uma pág
 
 # frontend
 
-O frontend escolhido foi o Angular na versão 8 e para o design da página foi utilizado o Material Design para Angular na qual possui uma boa documentação e possui uma fácil instalação e desenvolvimento. O mesmo poderá ser acessado neste link: https://material.angular.io/
-Para executar basta abrir um outro terminal basta acessar a pasta com o mesmo nome e em seguida com o comando:
+O frontend escolhido foi o Angular na versão 8 e para o design da página foi utilizado o Material Design para Angular na qual possui uma boa documentação e possui uma fácil instalação e desenvolvimento. O mesmo poderá ser acessado neste link: https://material.angular.io/.
+Em um outro terminal basta acessar a pasta com e em seguida dentro desta mesma basta acessar os comandos abaixo para instalação e execução do servidor respectivamente:
 
 ### npm install 
-
-Para executar o frontend basta executar o comando:
-
 ### npm start
 
-Com isso a aplicação poderá ser acessada no link: http://localhost:4200
+Com isso a aplicação poderá ser acessada através deste link: http://localhost:4200
