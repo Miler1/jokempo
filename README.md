@@ -26,7 +26,7 @@ Caso apareça o número da versão, significa que o node foi instalado corretame
 #### node >= 12.14.0
 #### npm >= 6.13.4
 
-O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
+O proximo passo é a execução do backend, para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
 
 ### npm install 
 
@@ -35,5 +35,18 @@ O comando acima irá instalar todas as dependências necessárias e para executa
 ### npm start
 
 O servidor escutará com o link: http://localhost:8080
-E se tudo ocorrer bem ao copiar e colar o link aparecerá a seguinte mensagem no navegador: 
+E se tudo ocorrer bem, ao copiar e colar o link no navegador aparecerá uma página com a seguinte mensagem: 
 #### {"message":"Welcome to ... Example Micro Service"} 
+
+# frontend
+
+O frontend escolhido foi o Angular na versão 8 e para o design da página foi utilizado o Material Design para Angular na qual possui uma boa documentação e possui uma fácil instalação e desenvolvimento. O mesmo poderá ser acessado neste link: https://material.angular.io/
+Para executar basta abrir um outro terminal basta acessar a pasta com o mesmo nome e em seguida com o comando:
+
+### npm install 
+
+Para executar o frontend basta executar o comando:
+
+### npm start
+
+Com isso a aplicação poderá ser acessada no link: http://localhost:4200
