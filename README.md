@@ -8,7 +8,7 @@ Este é apenas um experimento, não fique chateado se o computador (minha rede n
 
 # backend 
 
-O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização e integração o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local.
+O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização e integração o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local. Para lógica do jogo foi implementada uma rede neural que executa em tempo real e retorna a resposta dependendo das ações do jogador.
 
 ## Dependências
 
