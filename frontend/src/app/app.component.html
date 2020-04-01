@@ -1,0 +1,39 @@
+
+<div *ngIf="!data">
+  <app-form-modal></app-form-modal>
+</div>
+<div *ngIf="data && continue">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Bem vindo ao Game Jokempô</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+          <mat-grid-list cols="3" rowHeight="1:1">
+            <div class="row">
+              <mat-grid-tile>{{data.name}}</mat-grid-tile>
+              <mat-grid-tile>computador</mat-grid-tile>
+              <mat-grid-tile>empate</mat-grid-tile>
+            </div>
+          </mat-grid-list>
+    </mat-card-content>
+    <mat-card-actions>
+        <mat-grid-list cols="3" rowHeight="1:1">
+          <mat-grid-tile><button mat-raised-button color="primary" class="rock" (click)=play(0)><fa-icon [icon]="faHandRock" size="3x"></fa-icon></button></mat-grid-tile>
+          <mat-grid-tile><button mat-raised-button color="accent" class="paper" (click)=play(1)><fa-icon [icon]="faHandPaper" size="3x"></fa-icon></button></mat-grid-tile>
+          <mat-grid-tile><button mat-raised-button color="warn" class="scissors" (click)=play(2)><fa-icon [icon]="faHandScissors" size="3x"></fa-icon></button></mat-grid-tile>
+        </mat-grid-list>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<div *ngIf="!continue">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Resultados</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <app-table-historico [results]="results"></app-table-historico>
+    </mat-card-content>
+  </mat-card>
+</div>
+<!-- <router-outlet></router-outlet>  -->

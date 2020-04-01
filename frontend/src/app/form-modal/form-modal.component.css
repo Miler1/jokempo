@@ -1,0 +1,26 @@
+.example-card {
+    max-width: 300px;
+    height: 200px;
+    margin: 200px auto;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+}
+
+.mat-form-field {
+    width: 300px;
+    border-top: 1.44375em solid transparent;
+}
+
+.mat-card-actions {
+    min-height: 100px;
+    margin-left: -3px;
+    margin-top: 35px;
+}
+
+.mat-card-header .mat-card-title {
+    /* margin-bottom: 14px; */
+    margin-left: -14px;
+    /* margin-right: -12px; */
+}

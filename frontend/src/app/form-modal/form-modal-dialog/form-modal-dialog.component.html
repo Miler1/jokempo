@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>Oi {{data.name}}, Bora jogar! </h1>
+<div mat-dialog-content>
+    <!-- <p>Bora Jogar!</p> -->
+    <form class="example-form" [formGroup]="form">
+        <mat-form-field>
+            <mat-label>Selecione uma opção...</mat-label>
+            <mat-select [(ngModel)]="data.option" formControlName="option">
+                <mat-option *ngFor="let option of options" [value]="option.value">
+                {{option.viewValue}}
+                </mat-option>
+            </mat-select>
+            <mat-error *ngIf="hasError('option', 'required')">Selecione uma opção</mat-error>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions>
+  <button [disabled]="hasError('option', 'required')" mat-raised-button color="primary" [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>
