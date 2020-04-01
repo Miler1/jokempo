@@ -1,0 +1,9 @@
+[
+   {
+      "input":3,
+      "hidden":3,
+      "output":3,
+      "learningRate":0.1,
+      "iterations":300
+   }
+]
