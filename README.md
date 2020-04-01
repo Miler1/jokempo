@@ -17,13 +17,14 @@ Após o download verificar se os programas foram corretamente instalados:
 
 No terminal basta digitar o comando:
 
-### node -v 
+#### node -v 
 
-### npm -v
+#### npm -v
 
-Caso apareça o número da versão, significa que o node foi instalado corretamente. Neste caso a verão que foi utilizada foi a versão:
-### node >= 12.14.0
-### npm >= 6.13.4
+Caso apareça o número da versão, significa que o node foi instalado corretamente. Neste caso a versão que foi utilizada foram:
+
+#### node >= 12.14.0
+#### npm >= 6.13.4
 
 O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
 
