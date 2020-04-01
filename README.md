@@ -15,13 +15,17 @@ O backend foi implementado em javascript com o ambiente de execução em NodeJS 
 Os requisitos para a exeução do servidor incluem a instalação do node no computador o node é um software que permite a execução do javascript no lado do servidor e que através deste link ele pode ser baixado: https://nodejs.org/en/. Já o npm é instalado juntamente com node, o npm nada mais é um gerenciador de pacotes na qual permite a instalação de diversas outras ferramentas para auxilar no desenvolvimento.
 Após o download verificar se os programas foram corretamente instalados:
 
-O parâmetro -v é o comando que checa as versões.
+No terminal basta digitar o comando:
 
 ### node -v 
 
 ### npm -v
 
-Caso apareça o número da versão, significa que o node foi instalado corretamente. O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
+Caso apareça o número da versão, significa que o node foi instalado corretamente. Neste caso a verão que foi utilizada foi a versão:
+### node >= 12.14.0
+### npm >= 6.13.4
+
+O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
 
 ### npm install 
 
