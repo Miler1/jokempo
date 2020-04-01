@@ -10,5 +10,14 @@ Este é apenas um experimento, não fique chateado se o computador (minha rede n
 
 O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local.
 
-## Arquivos necessários 
+## Dependências
+
+Os requisitos para a exeução do servidor incluem a instalação do node e do comando npm globalmente no computador o node é um software que permite a execução do javascript no lado do servidor através deste link pode ser baixado: https://nodejs.org/en/. Já o npm é instalado juntamente com node, o npm nada mais é um gerenciador de pacotes na qual permite a instalação de diversas outras ferramentas.
+Após o download verificar se os mesmos foram corretamente instalados:
+
+### comando.
+node -v 
+
+npm -v
+
 
