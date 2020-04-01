@@ -5,3 +5,10 @@ Um experimento envolvendo um jogo de pedra, papel e tesoura, também conhecido c
 
 Conheça os problemas
 Este é apenas um experimento, não fique chateado se o computador (minha rede neural) não fizer um bom trabalho jogando contra você. Além disso, nunca excluo o conjunto de dados, o que significa que, eventualmente, o tempo para treinar a rede neural será cada vez maior.
+
+# backend 
+
+O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local.
+
+## Arquivos necessários 
+
