@@ -8,16 +8,25 @@ Este é apenas um experimento, não fique chateado se o computador (minha rede n
 
 # backend 
 
-O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local.
+O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização e integração o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local.
 
 ## Dependências
 
-Os requisitos para a exeução do servidor incluem a instalação do node e do comando npm globalmente no computador o node é um software que permite a execução do javascript no lado do servidor através deste link pode ser baixado: https://nodejs.org/en/. Já o npm é instalado juntamente com node, o npm nada mais é um gerenciador de pacotes na qual permite a instalação de diversas outras ferramentas.
-Após o download verificar se os mesmos foram corretamente instalados:
+Os requisitos para a exeução do servidor incluem a instalação do node no computador o node é um software que permite a execução do javascript no lado do servidor e que através deste link ele pode ser baixado: https://nodejs.org/en/. Já o npm é instalado juntamente com node, o npm nada mais é um gerenciador de pacotes na qual permite a instalação de diversas outras ferramentas para auxilar no desenvolvimento.
+Após o download verificar se os programas foram corretamente instalados:
 
-### comando.
+O parâmetro -v é o comando que checa as versões.
+
 node -v 
 
 npm -v
 
+Caso apareça o número da versão, significa que o node foi instalado corretamente. Os arquivos que foram utilizados no projeto incluem:
+### body-parser
+### express
+### cors
+"dotend
 
+
+
+O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome 
