@@ -9,6 +9,13 @@
       <mat-card-title>Bem vindo ao Game Jokempô</mat-card-title>
     </mat-card-header>
     <mat-card-content>
+          <div class="row1">
+            <mat-grid-list cols="3" rowHeight="1:1">
+            <mat-grid-tile><button mat-raised-button id="rock" color="primary" class="rock" (click)=play(0)><fa-icon [icon]="faHandRock" size="3x"></fa-icon></button></mat-grid-tile>
+            <mat-grid-tile><button mat-raised-button id="paper" color="accent" class="paper" (click)=play(1)><fa-icon [icon]="faHandPaper" size="3x"></fa-icon></button></mat-grid-tile>
+            <mat-grid-tile><button mat-raised-button id="scissors" color="warn" class="scissors" (click)=play(2)><fa-icon [icon]="faHandScissors" size="3x"></fa-icon></button></mat-grid-tile>
+          </mat-grid-list>
+          </div>
           <mat-grid-list cols="3" rowHeight="1:1">
             <div class="row">
               <mat-grid-tile>{{data.name}}</mat-grid-tile>

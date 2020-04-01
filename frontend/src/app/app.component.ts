@@ -65,6 +65,7 @@ export class AppComponent implements OnInit{
       document.querySelectorAll(".row")[0].append(player+" "+this.score[player]+" ");
       this.current = this.names[p]+" x "+this.names[c];
       let compare = "Rock x Rock";
+
       if (this.lastWinner == 'empate') {
         hasEmpate = true;
         // mensagem = "empatou!";
@@ -82,6 +83,14 @@ export class AppComponent implements OnInit{
       } else {
         hasEmpate = false;
       }
+    }
+
+    if (this.names[c] == "Rock") {
+      document.getElementById("rock").focus();
+    } else if (this.names[c] == "Paper") {
+      document.getElementById("paper").focus();
+    } else if (this.names[c] == "Scissors") {
+      document.getElementById("scissors").focus();
     }
 
     this.cont++;
