@@ -17,16 +17,16 @@ Após o download verificar se os programas foram corretamente instalados:
 
 O parâmetro -v é o comando que checa as versões.
 
-node -v 
+### node -v 
 
-npm -v
+### npm -v
 
-Caso apareça o número da versão, significa que o node foi instalado corretamente. Os arquivos que foram utilizados no projeto incluem:
-### body-parser
-### express
-### cors
-"dotend
+Caso apareça o número da versão, significa que o node foi instalado corretamente. O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
 
+### npm install 
 
+O comando acima irá instalar todas as dependências necessárias e para executar o servidor basta digitar o comando:
 
-O proximo passo é a execução do backend para isso basta fazer o clone do repositório e na pasta com o mesmo nome 
+### npm start
+
+O servidor escutará com o link: http://localhost:8080
