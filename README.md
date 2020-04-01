@@ -35,3 +35,5 @@ O comando acima irá instalar todas as dependências necessárias e para executa
 ### npm start
 
 O servidor escutará com o link: http://localhost:8080
+E se tudo ocorrer bem ao copiar e colar o link aparecerá a seguinte mensagem no navegador: 
+#### {"message":"Welcome to ... Example Micro Service"} 
