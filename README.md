@@ -1,49 +1,50 @@
-Uma Rede Neural pode prever seu próximo passo em um jogo de pedra, papel e tesoura?
+Can a Neural Network predict your next step in a game of rock, paper, and scissors?
 
-Sobre
-Um experimento envolvendo um jogo de pedra, papel e tesoura, também conhecido como JoKenPo. Durante as três primeiras rodadas, o computador escolhe um movimento (pedra, papel ou tesoura) aleatoriamente. Depois disso, assume que há dados suficientes sobre o player para prever seu padrão. O conjunto de dados consiste nos dois últimos movimentos do jogador, sendo o último, o que eles farão após o primeiro. Meio confuso, certo ?! Simplificando, o computador armazena o primeiro movimento como uma entrada x e o movimento depois como um rótulo ou destino y, o que significa que, após o jogador escolher o rock, por exemplo, existe a possibilidade de escolher o papel como o próximo movimento. Se o computador predizer que o jogador tocará rock, ele tocará papel e assim por diante. Toda vez que o computador perde, ele treina a rede neural novamente.
+About
+An experiment involving a rock, paper and scissors game, also known as JoKenPo. During the first three rounds, the computer chooses a move (rock, paper, or scissors) at random. After that, it assumes there is enough data about the player to predict its pattern. The dice set consists of the player's last two moves, the last being what they will do after the first. Kind of confused, right?! Simply put, the computer stores the first move as an x ​​input and the move afterwards as a y label or destination, which means that after the player chooses the rock, for example, there is a possibility to choose the role as the next move. If the computer predicts that the player will play rock, he will play paper and so on. Every time the computer loses, it trains the neural network again.
 
-Conheça os problemas
-Este é apenas um experimento, não fique chateado se o computador (minha rede neural) não fizer um bom trabalho jogando contra você. Além disso, nunca excluo o conjunto de dados, o que significa que, eventualmente, o tempo para treinar a rede neural será cada vez maior.
+Know the problems
+This is just an experiment, don't be upset if the computer (my neural network) doesn't do a good job playing against you. Also, I never delete the dataset, which means that eventually the time to train the neural network will be longer and longer.
 
-# backend 
+# backend
 
-O backend foi implementado em javascript com o ambiente de execução em NodeJS com a arquitetura em microserviços e o banco de dados escolhido foi o MongoDB devido a sua fácil utilização e integração o mesmo se encontra conectado remotamente não necessitando assim de nenhuma configuração e instalação em máquina local. Para lógica do jogo foi implementada uma rede neural que executa em tempo real e retorna a resposta dependendo das ações do jogador.
+The backend was implemented in javascript with the execution environment in NodeJS with the microservices architecture and the chosen database was MongoDB due to its easy use and integration, it is remotely connected, thus not requiring any configuration and installation on a machine local. For game logic a neural network that runs in real time and returns the answer depending on the player's actions was implemented.
 
-## Dependências
+## Dependencies
 
-Os requisitos para a exeução do servidor incluem a instalação do node no computador o node é um software que permite a execução do javascript no lado do servidor e que através deste link ele pode ser baixado: https://nodejs.org/en/. Já o npm é instalado juntamente com node, o npm nada mais é um gerenciador de pacotes na qual permite a instalação de diversas outras ferramentas para auxilar no desenvolvimento.
-Após o download verificar se os programas foram corretamente instalados:
+The requirements for running the server include installing node on the computer node is a software that allows the execution of javascript on the server side and through this link it can be downloaded: https://nodejs.org/en/. Since npm is installed together with node, npm is nothing more than a package manager which allows the installation of several other tools to aid in development.
+After downloading, check if the programs were installed correctly:
 
-No terminal basta digitar o comando:
 
-#### node -v 
+In the terminal just type the command:
+
+#### node -v
 
 #### npm -v
 
-Caso apareça o número da versão, significa que o node foi instalado corretamente. Neste caso a versão que foi utilizada foram:
+If the version number appears, it means that node was installed correctly. In this case, the version that was used were:
 
-#### node >= 12.14.0
-#### npm >= 6.13.4
+#### node >> 12.14.0
+#### npm >> 6.13.4
 
-O proximo passo é a execução do backend, para isso basta fazer o clone do repositório e na pasta com o mesmo nome executar o comando:
+The next step is the execution of the backend, to do this just clone the repository and in the folder with the same name execute the command:
 
-### npm install 
+### npm install
 
-O comando acima irá instalar todas as dependências necessárias e para executar o servidor basta digitar o comando:
+The above command will install all the necessary dependencies and to run the server just type the command:
 
 ### npm start
 
-O servidor escutará com o link: http://localhost:8080
-E se tudo ocorrer bem, ao copiar e colar o link no navegador aparecerá uma página com a seguinte mensagem: 
-#### {"message":"Welcome to ... Example Micro Service"} 
+The server will listen with the link: http://localhost:8080
+And if everything goes well, when copying and pasting the link in the browser, a page will appear with the following message:
+#### {"message":"Welcome to ... Example Micro Service"}
 
 # frontend
 
-O frontend escolhido foi o Angular na versão 8 e para o design da página foi utilizado o Material Design para Angular na qual possui uma boa documentação e possui uma fácil instalação e desenvolvimento. O mesmo poderá ser acessado neste link: https://material.angular.io/.
-Em um outro terminal basta acessar a pasta com e em seguida dentro desta mesma basta acessar os comandos abaixo para instalação e execução do servidor respectivamente:
+The frontend chosen was Angular in version 8 and for the design of the page, Material Design for Angular was used, which has good documentation and is easy to install and develop. It can be accessed at this link: https://material.angular.io/.
+In another terminal just access the folder with and then inside it just access the commands below to install and run the server respectively:
 
-### npm install 
+### npm install
 ### npm start
 
-Com isso a aplicação poderá ser acessada através deste link: http://localhost:4200
+With this the application can be accessed through this link: http://localhost:4200
